@@ -1,0 +1,171 @@
+/*Reset*/
+*{
+	margin: 0;
+	padding: 0;	
+	text-decoration: none;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+/*Inicio scss Index*/
+.body_index {
+    background-image: url(/JPG/fondo_index.JPG);
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;
+        position: sticky;
+	    top: 0;	    
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+
+.section_index{
+    .titulo_section{
+        position: absolute;
+        z-index: 1;
+        margin-top: 17px;
+        margin-left:95px;
+        font-family: 'Merriweather', serif; 
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center;
+       
+    }
+    .text_section{
+        border: 1px solid rgb(255, 255, 255);
+        border-radius:15%;        
+        font-family: 'Merriweather', serif; 
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        padding: 115px 100px 50px 100px;
+        margin: 100px 980px 100px 50px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+    }
+}  
+    .footer{
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+/*Fin scss Index*/
+
+/*Inicio scss Que Hacemos*/
+.body_quehacemos {
+    background-image: url(/JPG/fondo_quehacemos.jpg);
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;
+        position: sticky;
+	    top: 0;	    
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+
+.section_quehacemos{
+    .titulo_section{
+        position: absolute;
+        z-index: 1;
+        margin-top: 17px;
+        margin-left:95px;
+        font-family: 'Merriweather', serif; 
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center;
+       
+    }
+    .text_section{
+        border: 1px solid rgb(255, 255, 255);
+        border-radius:15%;        
+        font-family: 'Merriweather', serif; 
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        padding: 80px;
+        margin: 100px 980px 100px 50px;
+        background-color:rgba(181, 178, 189, 0.8) ;
+    }
+}  
+    .footer{
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}

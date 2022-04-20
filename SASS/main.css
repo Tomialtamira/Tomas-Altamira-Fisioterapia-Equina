@@ -1,0 +1,216 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Inicio scss Index*/
+.body_index {
+  background-image: url(/JPG/fondo_index.JPG);
+  height: auto;
+  width: 100%;
+}
+
+.body_index .header {
+  background-color: rgba(181, 178, 189, 0.9);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.body_index .header_isologo {
+  width: 250px;
+  height: auto;
+  z-index: 100px;
+}
+
+.body_index .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.body_index .nav-item {
+  margin: 15px;
+}
+
+.body_index .navbar-light .navbar-nav .nav-link {
+  font-family: 'Merriweather', serif;
+  color: #414042;
+}
+
+.body_index .navbar-light .navbar-nav .nav-link:hover {
+  color: #756f9d;
+}
+
+.body_index .section_index .titulo_section {
+  position: absolute;
+  z-index: 1;
+  margin-top: 17px;
+  margin-left: 95px;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #414042;
+  text-align: center;
+}
+
+.body_index .section_index .text_section {
+  border: 1px solid white;
+  border-radius: 15%;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #414042;
+  padding: 115px 100px 50px 100px;
+  margin: 100px 980px 100px 50px;
+  background-color: rgba(181, 178, 189, 0.8);
+}
+
+.body_index .footer {
+  background-color: rgba(181, 178, 189, 0.9);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body_index .footer .txt_footer {
+  margin: 15px 0px;
+  font-family: 'Merriweather', serif;
+  color: #4e4c51;
+  font-size: 13px;
+}
+
+.body_index .footer .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+.body_index .footer .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+/*Fin scss Index*/
+/*Inicio scss Que Hacemos*/
+.body_quehacemos {
+  background-image: url(/JPG/fondo_quehacemos.jpg);
+  height: auto;
+  width: 100%;
+}
+
+.body_quehacemos .header {
+  background-color: rgba(181, 178, 189, 0.9);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.body_quehacemos .header_isologo {
+  width: 250px;
+  height: auto;
+  z-index: 100px;
+}
+
+.body_quehacemos .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.body_quehacemos .nav-item {
+  margin: 15px;
+}
+
+.body_quehacemos .navbar-light .navbar-nav .nav-link {
+  font-family: 'Merriweather', serif;
+  color: #414042;
+}
+
+.body_quehacemos .navbar-light .navbar-nav .nav-link:hover {
+  color: #756f9d;
+}
+
+.body_quehacemos .section_quehacemos .titulo_section {
+  position: absolute;
+  z-index: 1;
+  margin-top: 17px;
+  margin-left: 95px;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #414042;
+  text-align: center;
+}
+
+.body_quehacemos .section_quehacemos .text_section {
+  border: 1px solid white;
+  border-radius: 15%;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #414042;
+  padding: 80px;
+  margin: 100px 980px 100px 50px;
+  background-color: rgba(181, 178, 189, 0.8);
+}
+
+.body_quehacemos .footer {
+  background-color: rgba(181, 178, 189, 0.9);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body_quehacemos .footer .txt_footer {
+  margin: 15px 0px;
+  font-family: 'Merriweather', serif;
+  color: #4e4c51;
+  font-size: 13px;
+}
+
+.body_quehacemos .footer .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+.body_quehacemos .footer .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+/*# sourceMappingURL=main.css.map */
