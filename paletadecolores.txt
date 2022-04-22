@@ -1,4 +1,4 @@
-rgb(170 167 200)
-rgb(167 160 158)
-rgb(181 178 189) 
-rgb(117 111 157)
+rgb(170, 167, 200)     lila
+rgb(167,160, 158)      
+rgb(181,178, 189)      top y pie de pag
+rgb(117, 111, 157)     violeta fisioequimed

@@ -50,7 +50,6 @@
 
 .body_index .section_index .titulo_section {
   position: absolute;
-  z-index: 1;
   margin-top: 17px;
   margin-left: 95px;
   font-family: 'Merriweather', serif;
@@ -61,8 +60,8 @@
 }
 
 .body_index .section_index .text_section {
-  border: 1px solid white;
-  border-radius: 15%;
+  border: 1px solid #414042;
+  border-radius: 10px;
   font-family: 'Merriweather', serif;
   font-size: 15px;
   font-weight: bold;
@@ -75,7 +74,6 @@
 .body_index .footer {
   background-color: rgba(181, 178, 189, 0.9);
   width: 100%;
-  position: fixed;
   bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,7 +112,7 @@
 /*Fin scss Index*/
 /*Inicio scss Que Hacemos*/
 .body_quehacemos {
-  background-image: url(/JPG/fondo_quehacemos.jpg);
+  background-color: white;
   height: auto;
   width: 100%;
 }
@@ -124,6 +122,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 100px;
 }
 
 .body_quehacemos .header_isologo {
@@ -151,35 +150,72 @@
   color: #756f9d;
 }
 
-.body_quehacemos .section_quehacemos .titulo_section {
-  position: absolute;
-  z-index: 1;
-  margin-top: 17px;
-  margin-left: 95px;
-  font-family: 'Merriweather', serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: #414042;
-  text-align: center;
+.body_quehacemos .section_quehacemos {
+  border: 1px solid #414042;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: rgba(181, 178, 189, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 40px 40px 40px 40px;
+}
+
+.body_quehacemos .section_quehacemos .div_section_quehacemo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .body_quehacemos .section_quehacemos .text_section {
-  border: 1px solid white;
-  border-radius: 15%;
   font-family: 'Merriweather', serif;
   font-size: 15px;
   font-weight: bold;
   color: #414042;
-  padding: 80px;
-  margin: 100px 980px 100px 50px;
-  background-color: rgba(181, 178, 189, 0.8);
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.body_quehacemos .section_quehacemos .logos_section_quehacemos {
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.body_quehacemos .section_quehacemos .div_section_img_quehacemos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.body_quehacemos .section_quehacemos .img_section_quehacemos {
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-right: 40px;
+  height: 500px;
+  width: auto;
+}
+
+.body_quehacemos .section_quehacemos .text_img {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
 }
 
 .body_quehacemos .footer {
   background-color: rgba(181, 178, 189, 0.9);
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  bottom: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,4 +249,108 @@
   width: 25px;
   height: 25px;
 }
+
+/*Fin scss Quehacemos*/
+/*Inicio scss Terapias*/
+.body_terapias {
+  background-color: white;
+  height: auto;
+  width: 100%;
+}
+
+.body_terapias .header {
+  background-color: rgba(181, 178, 189, 0.9);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100px;
+}
+
+.body_terapias .header_isologo {
+  width: 250px;
+  height: auto;
+  z-index: 100px;
+}
+
+.body_terapias .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.body_terapias .nav-item {
+  margin: 15px;
+}
+
+.body_terapias .navbar-light .navbar-nav .nav-link {
+  font-family: 'Merriweather', serif;
+  color: #414042;
+}
+
+.body_terapias .navbar-light .navbar-nav .nav-link:hover {
+  color: #756f9d;
+}
+
+.body_terapias .section_terapias {
+  border: 1px solid #414042;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: rgba(181, 178, 189, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 40px 40px 40px 40px;
+}
+
+.body_terapias .d-block .w-100 {
+  z-index: 50px;
+  height: 500px;
+}
+
+.body_terapias .footer {
+  background-color: rgba(181, 178, 189, 0.9);
+  width: 100%;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body_terapias .footer .txt_footer {
+  margin: 15px 0px;
+  font-family: 'Merriweather', serif;
+  color: #4e4c51;
+  font-size: 13px;
+}
+
+.body_terapias .footer .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+.body_terapias .footer .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+/*Fin scss Terapias*/
 /*# sourceMappingURL=main.css.map */
