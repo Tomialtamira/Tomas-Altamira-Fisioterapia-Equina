@@ -298,7 +298,7 @@
 
 .body_terapias .section_terapias .titulo_section {
   font-family: 'Merriweather', serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #414042;
   text-align: center;
@@ -309,7 +309,7 @@
   font-size: 15px;
   font-weight: bold;
   color: #414042;
-  padding: 30px;
+  padding: 15px;
 }
 
 .body_terapias .footer {
@@ -549,5 +549,233 @@
 }
 
 /*Fin scss Quiropraxia*/
+/*Inicio scss FA&Qs*/
+.body_faqs {
+  background-color: white;
+  height: auto;
+  width: 100%;
+}
+
+.body_faqs .header {
+  background-color: rgba(181, 178, 189, 0.9);
+}
+
+.body_faqs .header_isologo {
+  width: 250px;
+  height: auto;
+  z-index: 100px;
+}
+
+.body_faqs .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.body_faqs .nav-item {
+  margin: 15px;
+}
+
+.body_faqs .navbar-light .navbar-nav .nav-link {
+  font-family: 'Merriweather', serif;
+  color: #414042;
+}
+
+.body_faqs .navbar-light .navbar-nav .nav-link:hover {
+  color: #756f9d;
+}
+
+.body_faqs .section_faqs {
+  border: 1px solid #414042;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(181, 178, 189, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+}
+
+.body_faqs .section_faqs .tituloppal_section {
+  font-family: 'Merriweather', serif;
+  font-size: 35px;
+  padding: 15px;
+  font-weight: bold;
+  color: #414042;
+  text-align: center;
+}
+
+.body_faqs .section_faqs .titulo_section {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+  color: #414042;
+  text-align: center;
+}
+
+.body_faqs .section_faqs .text_section {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #414042;
+  padding: 15px;
+  text-align: center;
+}
+
+.body_faqs .section_faqs .vid_section_faqs {
+  margin-left: 420px;
+}
+
+.body_faqs .footer {
+  background-color: rgba(181, 178, 189, 0.9);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body_faqs .footer .txt_footer {
+  margin: 15px 0px;
+  font-family: 'Merriweather', serif;
+  color: #4e4c51;
+  font-size: 13px;
+}
+
+.body_faqs .footer .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+.body_faqs .footer .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+/*Fin scss FA&Qs*/
+/*Inicio scss Contacto*/
+.body_contacto {
+  background-image: url(../JPG/fondo_contacto.jpg);
+  height: auto;
+  width: 100%;
+}
+
+.body_contacto .header {
+  background-color: rgba(181, 178, 189, 0.9);
+}
+
+.body_contacto .header_isologo {
+  width: 250px;
+  height: auto;
+  z-index: 100px;
+}
+
+.body_contacto .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.body_contacto .nav-item {
+  margin: 15px;
+}
+
+.body_contacto .navbar-light .navbar-nav .nav-link {
+  font-family: 'Merriweather', serif;
+  color: #414042;
+}
+
+.body_contacto .navbar-light .navbar-nav .nav-link:hover {
+  color: #756f9d;
+}
+
+.body_contacto .section_contacto .div_section_contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: rgba(181, 178, 189, 0.9);
+  border: 1px solid #414042;
+  border-radius: 10px;
+  margin: 40px;
+  width: 40%;
+  height: 600px;
+}
+
+.body_contacto .section_contacto .contenido_formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 500px;
+  margin: 100px auto;
+  padding: 10px;
+}
+
+.body_contacto .footer {
+  background-color: rgba(181, 178, 189, 0.9);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body_contacto .footer .txt_footer {
+  margin: 15px 0px;
+  font-family: 'Merriweather', serif;
+  color: #4e4c51;
+  font-size: 13px;
+}
+
+.body_contacto .footer .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+.body_contacto .footer .facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+/*Fin scss Contacto*/
 /*Inicio Media Queries*/
 /*# sourceMappingURL=main.css.map */

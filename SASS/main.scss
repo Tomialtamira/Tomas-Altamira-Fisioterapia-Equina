@@ -216,7 +216,7 @@
     margin: 40px;  
     .titulo_section{             
         font-family: 'Merriweather', serif; 
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         color: rgb(65, 64, 66);
         text-align: center; 
@@ -226,8 +226,7 @@
         font-size: 15px;
         font-weight: bold;
         color: rgb(65, 64, 66);
-        padding: 30px;
-                  
+        padding: 15px;                  
     }
 }
 
@@ -382,6 +381,171 @@
 }
 
 /*Fin scss Quiropraxia*/
+
+/*Inicio scss FA&Qs*/
+.body_faqs {
+    background-color:rgb(255, 255, 255) ;
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;        	   
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+.section_faqs{     
+    border: 1px solid rgb(65, 64, 66);
+    border-radius:10px;  
+    padding: 20px;
+    background-color:rgba(181, 178, 189, 0.8) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px; 
+    .tituloppal_section{
+        font-family: 'Merriweather', serif; 
+        font-size: 35px;
+        padding: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center;
+    }
+    .titulo_section{             
+        font-family: 'Merriweather', serif; 
+        font-size: 25px;
+        padding: 10px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        text-align: center; 
+    } 
+    .text_section{              
+        font-family: 'Merriweather', serif; 
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(65, 64, 66);
+        padding: 15px;
+        text-align: center;                   
+    }
+    .vid_section_faqs{
+        margin-left: 420px;
+    }
+}
+
+    .footer{        
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;    
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+
+/*Fin scss FA&Qs*/
+
+/*Inicio scss Contacto*/
+.body_contacto {
+    background-image: url(../JPG/fondo_contacto.jpg);
+    height: auto;
+    width: 100%;
+    .header{
+        background-color: rgba(181, 178, 189, 0.9) ;
+      
+    }
+    .header_isologo{       
+        width: 250px;
+        height: auto;
+        z-index: 100px;
+    }
+    .navbar-collapse{        
+        justify-content: end;
+    }
+    .nav-item{
+        margin: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-family: 'Merriweather', serif; 
+        color: rgb(65, 64, 66) ;       
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: rgb(117, 111, 157);       
+    }  
+
+.section_contacto{
+    .div_section_contacto{		
+		display: flex;
+		justify-content: space-evenly;
+		background-color: rgba(181, 178, 189, 0.9);
+		border: 1px solid rgb(65, 64, 66);
+        border-radius:10px;  
+		margin: 40px;        
+		width: 40%;
+		height: 600px;
+	}
+	.contenido_formulario{	
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 500px;
+		margin: 100px auto;		
+		padding: 10px;
+	}
+}  
+    .footer{        
+        background-color:rgba(181, 178, 189, 0.9) ;
+        width: 100%;        
+        display: flex;
+        justify-content: space-evenly;	
+	    align-items: center;             
+        .txt_footer{
+            margin: 15px 0px;
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 13px;                         
+        } 
+        .instagram{
+            display: flex;           
+            width: 25px;
+            height: 25px;
+        }
+        .facebook{
+            display: flex;         
+            width: 25px;
+            height: 25px;
+        }     
+    }
+}
+/*Fin scss Contacto*/
 
 
 
