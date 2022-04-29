@@ -406,6 +406,10 @@
   margin: 40px;
 }
 
+.body_quiropraxia .section_quiropraxia_intro .img_div_section_quiropraxia {
+  width: 100%;
+}
+
 .body_quiropraxia .section_quiropraxia_intro .logo_section_quiropraxia {
   width: 500px;
   margin-left: 90px;
@@ -1445,7 +1449,7 @@
         -ms-flex-align: start;
             align-items: flex-start;
     width: auto;
-    margin: 40px;
+    margin: 20px;
     padding: 10px;
   }
   .body_contacto .footer {
