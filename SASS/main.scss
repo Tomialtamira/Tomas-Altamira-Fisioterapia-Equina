@@ -53,7 +53,7 @@
         font-size: 15px;
         font-weight: bold;
         color: rgb(65, 64, 66);
-        padding: 115px 100px 50px 100px;
+        padding: 115px 100px 30px 100px;
         margin: 100px 980px 100px 50px;
         background-color:rgba(181, 178, 189, 0.8) ;
         text-align: center;
@@ -521,8 +521,23 @@
 		flex-direction: column;
 		align-items: flex-start;
 		width: 500px;
-		margin: 100px auto;		
+		margin: 50px ;		
 		padding: 10px;
+        .input{
+            margin: 4px; 
+            border: 1px solid rgb(65, 64, 66);
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            font-size: 16px;
+        }
+        .input_button{
+            margin: 4px; 
+            border: 1px solid rgb(65, 64, 66);
+            font-family: 'Merriweather', serif; 
+            color:rgb(78, 76, 81) ; 
+            width: 100px;
+            font-size: 16px;
+        }
 	}
 }  
     .footer{        
@@ -696,9 +711,9 @@
         margin-top: 10px;          
     }
     .logos_section_quehacemos{
-        height: 50px;
+        height: 40px;
         margin-top: 15px;
-        margin-left: 45px;             
+        margin-left: 40px;             
     }
     .div_section_img_quehacemos{
         display: flex;
@@ -714,7 +729,11 @@
         width: 300px
     }
     .text_img{         
-        font-size: 0px;        
+        font-size: 10px;
+        font-family: 'Merriweather', serif; 
+        font-size: 12px;
+        color: rgb(65, 64, 66);
+        text-align: center;        
     }
  }  
     .footer{  
@@ -1087,9 +1106,15 @@
             margin: 20px;		
             padding: 10px;
             .input{
+                margin: 2px; 
+                border: 1px solid rgb(65, 64, 66);
+                font-family: 'Merriweather', serif; 
+                color:rgb(78, 76, 81) ; 
                 font-size: 14px;
             }
             .input_button{
+                font-family: 'Merriweather', serif; 
+                color:rgb(78, 76, 81) ; 
                 width: 100px;
                 font-size: 14px;
             }
@@ -1275,7 +1300,7 @@
     }
     .div_section_img_quehacemos{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .img_section_quehacemos{        
         border-radius: 5px;        
@@ -1285,7 +1310,11 @@
         width: auto; 
     }
     .text_img{     
-        font-size: 0px;
+        font-size: 10px;
+        font-family: 'Merriweather', serif; 
+        font-size: 12px;
+        color: rgb(65, 64, 66);
+        text-align: center;  
     }
  }  
     .footer{ 
@@ -1685,6 +1714,21 @@
             width: auto;
             margin: 40px;		
             padding: 10px;
+            .input{
+                margin: 4px; 
+                border: 1px solid rgb(65, 64, 66);
+                font-family: 'Merriweather', serif; 
+                color:rgb(78, 76, 81) ; 
+                font-size: 15px;
+            }
+            .input_button{
+                margin: 4px; 
+                border: 1px solid rgb(65, 64, 66);
+                font-family: 'Merriweather', serif; 
+                color:rgb(78, 76, 81) ; 
+                width: 100px;
+                font-size: 15px;
+            }
         }
     }  
         .footer{ 
