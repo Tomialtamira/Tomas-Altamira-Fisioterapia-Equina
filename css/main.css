@@ -11,7 +11,7 @@
 
 /*Inicio scss Index*/
 .body_index {
-  background-image: url(../JPG/fondo_index.JPG);
+  background-image: url(../jpg/fondo_index.JPG);
   height: auto;
   width: 100%;
 }
@@ -680,7 +680,7 @@
 /*Fin scss FA&Qs*/
 /*Inicio scss Contacto*/
 .body_contacto {
-  background-image: url(../JPG/fondo_contacto.jpg);
+  background-image: url(../jpg/fondo_contacto.jpg);
   height: auto;
   width: 100%;
 }
@@ -805,7 +805,7 @@
 /*Inicio Media Queries Index, para mobile*/
 @media screen and (max-width: 420px) {
   .body_index {
-    background-image: url(../JPG/fondo_index_mobile.jpg);
+    background-image: url(../jpg/fondo_index_mobile.jpg);
     height: auto;
     width: 100%;
   }
@@ -1049,7 +1049,7 @@
 /*Inicio Media Queries Terapias, para mobile*/
 @media screen and (max-width: 420px) {
   .body_terapias {
-    background-image: url(../JPG/fondo_terapias_mobile.jpg);
+    background-image: url(../jpg/fondo_terapias_mobile.jpg);
     height: auto;
     width: 100%;
   }
@@ -1413,7 +1413,7 @@
 /*Inicio Media Queries Contacto, para mobile*/
 @media screen and (max-width: 420px) {
   .body_contacto {
-    background-image: url(../JPG/fondo_contacto_mobile.jpg);
+    background-image: url(../jpg/fondo_contacto_mobile.jpg);
     height: auto;
     width: 100%;
   }
@@ -1529,7 +1529,7 @@
 /*Inicio Media Queries Index, para tablet*/
 @media (min-width: 421px) and (max-width: 1024px) {
   .body_index {
-    background-image: url(../JPG/fondo_index_tablet.jpg);
+    background-image: url(../jpg/fondo_index_tablet.jpg);
     height: auto;
     width: 100%;
   }
@@ -2187,7 +2187,7 @@
 /*Inicio Media Queries Contacto, para tablet*/
 @media (min-width: 421px) and (max-width: 1024px) {
   .body_contacto {
-    background-image: url(../JPG/fondo_contacto_tablet.jpg);
+    background-image: url(../jpg/fondo_contacto_tablet.jpg);
     height: auto;
     width: 100%;
   }
